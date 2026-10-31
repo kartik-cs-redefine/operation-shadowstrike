@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPERATION SHADOWSTRIKE | ALGO CLUB | PSIT KANPUR</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta name="description" content="Operation ShadowStrike - Presentation Deck & Competition Rounds by ALGO Club, PSIT Kanpur">
+</head>
+<body>
+
+  <!-- Clean Atmospheric Stage Background -->
+  <div class="stage-atmosphere"></div>
+  <div class="stage-grid"></div>
+
+  <!-- TOP FLOATING THEME TOGGLE (Top Right) -->
+  <div class="top-stage-controls">
+    <button class="theme-toggle-btn" id="btn-theme-toggle" title="Toggle Light / Dark Mode (T)">
+      <span class="theme-icon" id="theme-icon">☀️</span>
+      <span class="theme-label" id="theme-label">Light Mode</span>
+    </button>
+  </div>
+
+  <!-- MAIN DECK CONTAINER -->
+  <div class="deck-container">
+
+    <!-- ======================================================================
+         SLIDE 0: TITLE / COVER PRESENTATION SLIDE
+         ====================================================================== -->
+    <section class="slide-page active" id="slide-0">
+      
+      <!-- 1. TOP INSTITUTIONAL LOGOS HEADER -->
+      <header class="ppt-top-bar">
+        <div class="ppt-logos-container">
+          <div class="ppt-logo-wrapper" title="Pranveer Singh Institute of Technology">
+            <img src="assets/images/logos/header_logo_psit_2x.png" alt="PSIT Kanpur" class="header-logo-img">
+          </div>
+          <div class="logo-divider-line"></div>
+          <div class="ppt-logo-wrapper" title="NAAC A+ Accredited">
+            <img src="assets/images/logos/header_logo_naac_2x.png" alt="NAAC A+" class="header-logo-img">
+          </div>
+          <div class="logo-divider-line"></div>
+          <div class="ppt-logo-wrapper" title="ALGO Club PSIT">
+            <img src="assets/images/logos/header_logo_algoclub_2x.png" alt="ALGO Club" class="header-logo-img logo-algo">
+          </div>
+          <div class="logo-divider-line"></div>
+          <div class="ppt-logo-wrapper" title="Computer Society of India (CSI)">
+            <img src="assets/images/logos/header_logo_csi_2x.png" alt="CSI" class="header-logo-img">
+          </div>
+        </div>
+
+        <div class="ppt-presents-divider">
+          <span class="presents-line"></span>
+          <span class="presents-text">ALGO CLUB PRESENTS</span>
+          <span class="presents-line"></span>
+        </div>
+      </header>
+
+      <!-- 2. CENTER HERO SECTION -->
+      <main class="ppt-hero-body">
+        <div class="ppt-hero-soldier-wrap">
+          <img src="assets/images/hero/soldier_laptop_2x.png" alt="Tactical Operator" class="soldier-img">
+          <div class="soldier-directive-badge">
+            <div class="directive-label">DIRECTIVE</div>
+            <div class="directive-text">SOLVE. DECODE.<br>COLLABORATE. RECOVER.</div>
+          </div>
+        </div>
+
+        <div class="ppt-hero-content">
+          <div class="status-live-pill">
+            <span class="live-beacon-dot"></span>
+            <span class="status-live-text">MISSION ACTIVE</span>
+          </div>
+
+          <h1 class="main-title-operation">OPERATION</h1>
+          <h2 class="main-title-shadowstrike">SHADOWSTRIKE</h2>
+
+          <div class="subheadline-tag">
+            RECOVER THE SYSTEM. BEAT THE CLOCK.
+          </div>
+
+          <div class="core-pillars-row">
+            <div class="core-pillar-item">
+              <span class="pillar-bullet">●</span>
+              <span>Team of 2</span>
+            </div>
+            <div class="core-pillar-item">
+              <span class="pillar-bullet">●</span>
+              <span>Code &amp; Logic</span>
+            </div>
+            <div class="core-pillar-item">
+              <span class="pillar-bullet">●</span>
+              <span>Time Competition</span>
+            </div>
+            <div class="core-pillar-item">
+              <span class="pillar-bullet">●</span>
+              <span>Unlock Final Key</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- 3. BOTTOM EVENT COORDINATES BAR -->
+      <footer class="ppt-bottom-bar">
+        <div class="coord-group">
+          <div class="coord-icon">📅</div>
+          <div class="coord-texts">
+            <span class="coord-label">EVENT DATE</span>
+            <span class="coord-val-primary">31 OCT 2026</span>
+            <span class="coord-val-sub">Saturday · Today</span>
+          </div>
+        </div>
+
+        <div class="coord-separator"></div>
+
+        <div class="coord-group">
+          <div class="coord-icon">⏰</div>
+          <div class="coord-texts">
+            <span class="coord-label">MISSION TIMING</span>
+            <span class="coord-val-primary">01:40 PM – 03:10 PM</span>
+            <span class="coord-val-sub">90 Minutes Recovery Window</span>
+          </div>
+        </div>
+
+        <div class="coord-separator"></div>
+
+        <div class="coord-group">
+          <div class="coord-icon">📍</div>
+          <div class="coord-texts">
+            <span class="coord-label">VENUE LOCATION</span>
+            <span class="coord-val-primary">COMPUTER LAB, PSIT</span>
+            <span class="coord-val-sub">Campus Lab Block</span>
+          </div>
+        </div>
+
+        <div class="coord-separator"></div>
+
+        <div class="insta-handle">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span>@algoclub.psit</span>
+        </div>
+      </footer>
+
+    </section>
+
+
+    <!-- ======================================================================
+         SLIDE 1: ROUND 1 (LEVEL 1) - REDESIGNED WIDESCREEN 16:9 STAGE
+         ====================================================================== -->
+    <section class="slide-page" id="slide-1">
+      <div class="round-slide-container">
+
+        <!-- LEFT HALF: THEMATIC ILLUSTRATION & ATMOSPHERE -->
+        <div class="round-visual-pane">
+          <div class="visual-ambient-glow"></div>
+          <div class="round-visual-frame">
+            <img src="assets/images/rounds/round1_art_2x.png" alt="Level 1 Cipher Decoding Art">
+            <div class="round-cue-callout">
+              <span class="cue-tag">STAGE DIRECTIVE</span>
+              <div class="cue-headline">"The first clue awaits... Find. Decode. Reveal."</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT HALF: COMMAND ARENA & BIG CENTERED TIMER -->
+        <div class="round-command-pane" id="command-pane-1">
+          <div class="round-presents-tag">ALGO CLUB PRESENTS · OPERATION SHADOW-STRIKE</div>
+          <h2 class="round-level-huge-title">LEVEL <span class="num-accent">01</span></h2>
+          <div class="round-sub-directive">CIPHER DECODING &amp; PROTOCOL EXTRACTION</div>
+
+          <!-- STAGE VIEW SWITCHER CONTROLS -->
+          <div class="stage-view-switcher" id="view-switcher-1">
+            <button class="btn-view-mode active" id="btn-view-split-1" data-round="1" data-mode="split" title="Show both Join Code and Timer">Split View</button>
+            <button class="btn-view-mode" id="btn-view-code-1" data-round="1" data-mode="code" title="Hide Timer and expand Join Code to full view">Join Code Focus</button>
+            <button class="btn-view-mode" id="btn-view-timer-1" data-round="1" data-mode="timer" title="Hide Join Code and expand Timer to full view">Timer Focus</button>
+          </div>
+
+          <!-- BIG 6-DIGIT WAYGROUND JOIN CODE CARD -->
+          <div class="stage-join-code-block" id="join-card-1">
+            <div class="jc-meta-bar">
+              <div class="jc-title-wrap">
+                <span class="jc-live-dot"></span>
+                <span class="jc-label">WAYGROUND SESSION PIN</span>
+              </div>
+              <div class="jc-tools">
+                <button class="btn-jc-tool btn-focus-code" id="btn-toggle-timer-1" title="Toggle Timer Visibility">Hide Timer</button>
+                <button class="btn-jc-tool" id="btn-copy-code-1" title="Copy 6-digit PIN">Copy</button>
+                <button class="btn-jc-tool" id="btn-clear-code-1" title="Clear PIN">Clear</button>
+              </div>
+            </div>
+
+            <div class="jc-slots-wrapper" id="jc-wrapper-1">
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-1-0" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-1-1" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-1-2" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+              <div class="jc-slot-hyphen">—</div>
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-1-3" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-1-4" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-1-5" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+            </div>
+
+            <div class="jc-instructions-sub">
+              <span>Enter 6-digit session PIN directly on screen · Participants enter this PIN to join</span>
+            </div>
+          </div>
+
+          <!-- BIG CENTERED STAGE TIMER BLOCK -->
+          <div class="stage-timer-center-block" id="timer-card-1">
+            <div class="timer-linear-progress">
+              <div class="progress-fill" id="timer-progress-1"></div>
+            </div>
+
+            <div class="timer-meta-row">
+              <span class="timer-level-pill">LEVEL 01</span>
+              <span class="timer-status-text">MISSION WINDOW · 8 MINUTES</span>
+              <button class="btn-timer-mini-hide" id="btn-toggle-code-1" title="Toggle Join Code Visibility">Hide Code</button>
+            </div>
+
+            <!-- THE GIANT CENTERED TIMER -->
+            <div class="giant-timer-display" id="timer-digits-1">08:00</div>
+
+            <!-- TACTILE CONTROLS ROW -->
+            <div class="timer-controls-row">
+              <button class="btn-timer-primary" id="btn-start-round-1">
+                <span class="btn-icon">▶</span>
+                <span>Start 8m Timer</span>
+              </button>
+              <button class="btn-timer-subtle" id="btn-reset-round-1" title="Reset to 08:00">Reset</button>
+              <button class="btn-timer-subtle" id="btn-sub1-round-1" title="Subtract 1 Minute">-1m</button>
+              <button class="btn-timer-subtle" id="btn-add1-round-1" title="Add 1 Minute">+1m</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         SLIDE 2: ROUND 2 (LEVEL 2) - REDESIGNED WIDESCREEN 16:9 STAGE
+         ====================================================================== -->
+    <section class="slide-page" id="slide-2">
+      <div class="round-slide-container">
+
+        <!-- LEFT HALF: THEMATIC ILLUSTRATION & ATMOSPHERE -->
+        <div class="round-visual-pane">
+          <div class="visual-ambient-glow"></div>
+          <div class="round-visual-frame">
+            <img src="assets/images/rounds/round2_art_2x.png" alt="Level 2 Logical Reasoning Art">
+            <div class="round-cue-callout">
+              <span class="cue-tag">STAGE DIRECTIVE</span>
+              <div class="cue-headline">"Think. Analyze. Solve. Navigate the logic maze."</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT HALF: COMMAND ARENA & BIG CENTERED TIMER -->
+        <div class="round-command-pane" id="command-pane-2">
+          <div class="round-presents-tag">ALGO CLUB PRESENTS · OPERATION SHADOW-STRIKE</div>
+          <h2 class="round-level-huge-title">LEVEL <span class="num-accent">02</span></h2>
+          <div class="round-sub-directive">LOGICAL REASONING &amp; MATRIX BLUEPRINT</div>
+
+          <!-- STAGE VIEW SWITCHER CONTROLS -->
+          <div class="stage-view-switcher" id="view-switcher-2">
+            <button class="btn-view-mode active" id="btn-view-split-2" data-round="2" data-mode="split" title="Show both Join Code and Timer">Split View</button>
+            <button class="btn-view-mode" id="btn-view-code-2" data-round="2" data-mode="code" title="Hide Timer and expand Join Code to full view">Join Code Focus</button>
+            <button class="btn-view-mode" id="btn-view-timer-2" data-round="2" data-mode="timer" title="Hide Join Code and expand Timer to full view">Timer Focus</button>
+          </div>
+
+          <!-- BIG 6-DIGIT WAYGROUND JOIN CODE CARD -->
+          <div class="stage-join-code-block" id="join-card-2">
+            <div class="jc-meta-bar">
+              <div class="jc-title-wrap">
+                <span class="jc-live-dot"></span>
+                <span class="jc-label">WAYGROUND SESSION PIN</span>
+              </div>
+              <div class="jc-tools">
+                <button class="btn-jc-tool btn-focus-code" id="btn-toggle-timer-2" title="Toggle Timer Visibility">Hide Timer</button>
+                <button class="btn-jc-tool" id="btn-copy-code-2" title="Copy 6-digit PIN">Copy</button>
+                <button class="btn-jc-tool" id="btn-clear-code-2" title="Clear PIN">Clear</button>
+              </div>
+            </div>
+
+            <div class="jc-slots-wrapper" id="jc-wrapper-2">
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-2-0" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-2-1" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-2-2" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+              <div class="jc-slot-hyphen">—</div>
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-2-3" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-2-4" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-2-5" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+            </div>
+
+            <div class="jc-instructions-sub">
+              <span>Enter 6-digit session PIN directly on screen · Participants enter this PIN to join</span>
+            </div>
+          </div>
+
+          <!-- BIG CENTERED STAGE TIMER BLOCK -->
+          <div class="stage-timer-center-block" id="timer-card-2">
+            <div class="timer-linear-progress">
+              <div class="progress-fill" id="timer-progress-2"></div>
+            </div>
+
+            <div class="timer-meta-row">
+              <span class="timer-level-pill">LEVEL 02</span>
+              <span class="timer-status-text">MISSION WINDOW · 8 MINUTES</span>
+              <button class="btn-timer-mini-hide" id="btn-toggle-code-2" title="Toggle Join Code Visibility">Hide Code</button>
+            </div>
+
+            <!-- THE GIANT CENTERED TIMER -->
+            <div class="giant-timer-display" id="timer-digits-2">08:00</div>
+
+            <!-- TACTILE CONTROLS ROW -->
+            <div class="timer-controls-row">
+              <button class="btn-timer-primary" id="btn-start-round-2">
+                <span class="btn-icon">▶</span>
+                <span>Start 8m Timer</span>
+              </button>
+              <button class="btn-timer-subtle" id="btn-reset-round-2" title="Reset to 08:00">Reset</button>
+              <button class="btn-timer-subtle" id="btn-sub1-round-2" title="Subtract 1 Minute">-1m</button>
+              <button class="btn-timer-subtle" id="btn-add1-round-2" title="Add 1 Minute">+1m</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         SLIDE 3: ROUND 3 (LEVEL 3) - REDESIGNED WIDESCREEN 16:9 STAGE
+         ====================================================================== -->
+    <section class="slide-page" id="slide-3">
+      <div class="round-slide-container">
+
+        <!-- LEFT HALF: THEMATIC ILLUSTRATION & ATMOSPHERE -->
+        <div class="round-visual-pane">
+          <div class="visual-ambient-glow"></div>
+          <div class="round-visual-frame">
+            <img src="assets/images/rounds/round3_art_2x.png" alt="Level 3 C Programming Debugging Art">
+            <div class="round-cue-callout">
+              <span class="cue-tag">STAGE DIRECTIVE</span>
+              <div class="cue-headline">"Build. Run. Fix. Succeed. Repair corrupted syntax."</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT HALF: COMMAND ARENA & BIG CENTERED TIMER -->
+        <div class="round-command-pane" id="command-pane-3">
+          <div class="round-presents-tag">ALGO CLUB PRESENTS · OPERATION SHADOW-STRIKE</div>
+          <h2 class="round-level-huge-title">LEVEL <span class="num-accent">03</span></h2>
+          <div class="round-sub-directive">C PROGRAMMING &amp; RUNTIME DEBUGGING</div>
+
+          <!-- STAGE VIEW SWITCHER CONTROLS -->
+          <div class="stage-view-switcher" id="view-switcher-3">
+            <button class="btn-view-mode active" id="btn-view-split-3" data-round="3" data-mode="split" title="Show both Join Code and Timer">Split View</button>
+            <button class="btn-view-mode" id="btn-view-code-3" data-round="3" data-mode="code" title="Hide Timer and expand Join Code to full view">Join Code Focus</button>
+            <button class="btn-view-mode" id="btn-view-timer-3" data-round="3" data-mode="timer" title="Hide Join Code and expand Timer to full view">Timer Focus</button>
+          </div>
+
+          <!-- BIG 6-DIGIT WAYGROUND JOIN CODE CARD -->
+          <div class="stage-join-code-block" id="join-card-3">
+            <div class="jc-meta-bar">
+              <div class="jc-title-wrap">
+                <span class="jc-live-dot"></span>
+                <span class="jc-label">WAYGROUND SESSION PIN</span>
+              </div>
+              <div class="jc-tools">
+                <button class="btn-jc-tool btn-focus-code" id="btn-toggle-timer-3" title="Toggle Timer Visibility">Hide Timer</button>
+                <button class="btn-jc-tool" id="btn-copy-code-3" title="Copy 6-digit PIN">Copy</button>
+                <button class="btn-jc-tool" id="btn-clear-code-3" title="Clear PIN">Clear</button>
+              </div>
+            </div>
+
+            <div class="jc-slots-wrapper" id="jc-wrapper-3">
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-3-0" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-3-1" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-3-2" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+              <div class="jc-slot-hyphen">—</div>
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-3-3" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-3-4" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-3-5" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+            </div>
+
+            <div class="jc-instructions-sub">
+              <span>Enter 6-digit session PIN directly on screen · Participants enter this PIN to join</span>
+            </div>
+          </div>
+
+          <!-- BIG CENTERED STAGE TIMER BLOCK -->
+          <div class="stage-timer-center-block" id="timer-card-3">
+            <div class="timer-linear-progress">
+              <div class="progress-fill" id="timer-progress-3"></div>
+            </div>
+
+            <div class="timer-meta-row">
+              <span class="timer-level-pill">LEVEL 03</span>
+              <span class="timer-status-text">MISSION WINDOW · 11 MINUTES</span>
+              <button class="btn-timer-mini-hide" id="btn-toggle-code-3" title="Toggle Join Code Visibility">Hide Code</button>
+            </div>
+
+            <!-- THE GIANT CENTERED TIMER -->
+            <div class="giant-timer-display" id="timer-digits-3">11:00</div>
+
+            <!-- TACTILE CONTROLS ROW -->
+            <div class="timer-controls-row">
+              <button class="btn-timer-primary" id="btn-start-round-3">
+                <span class="btn-icon">▶</span>
+                <span>Start 11m Timer</span>
+              </button>
+              <button class="btn-timer-subtle" id="btn-reset-round-3" title="Reset to 11:00">Reset</button>
+              <button class="btn-timer-subtle" id="btn-sub1-round-3" title="Subtract 1 Minute">-1m</button>
+              <button class="btn-timer-subtle" id="btn-add1-round-3" title="Add 1 Minute">+1m</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         SLIDE 4: ROUND 4 (LEVEL 4) - REDESIGNED WIDESCREEN 16:9 STAGE
+         ====================================================================== -->
+    <section class="slide-page" id="slide-4">
+      <div class="round-slide-container">
+
+        <!-- LEFT HALF: THEMATIC ILLUSTRATION & ATMOSPHERE -->
+        <div class="round-visual-pane">
+          <div class="visual-ambient-glow"></div>
+          <div class="round-visual-frame">
+            <img src="assets/images/rounds/round4_art_2x.png" alt="Level 4 Incident Simulation Art">
+            <div class="round-cue-callout">
+              <span class="cue-tag">STAGE DIRECTIVE</span>
+              <div class="cue-headline">"Find clues. Connect dots. Solve it. Recover system."</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT HALF: COMMAND ARENA & BIG CENTERED TIMER -->
+        <div class="round-command-pane" id="command-pane-4">
+          <div class="round-presents-tag">ALGO CLUB PRESENTS · OPERATION SHADOW-STRIKE</div>
+          <h2 class="round-level-huge-title">LEVEL <span class="num-accent">04</span></h2>
+          <div class="round-sub-directive">FINAL DIGITAL INCIDENT SIMULATION</div>
+
+          <!-- STAGE VIEW SWITCHER CONTROLS -->
+          <div class="stage-view-switcher" id="view-switcher-4">
+            <button class="btn-view-mode active" id="btn-view-split-4" data-round="4" data-mode="split" title="Show both Join Code and Timer">Split View</button>
+            <button class="btn-view-mode" id="btn-view-code-4" data-round="4" data-mode="code" title="Hide Timer and expand Join Code to full view">Join Code Focus</button>
+            <button class="btn-view-mode" id="btn-view-timer-4" data-round="4" data-mode="timer" title="Hide Join Code and expand Timer to full view">Timer Focus</button>
+          </div>
+
+          <!-- BIG 6-DIGIT WAYGROUND JOIN CODE CARD -->
+          <div class="stage-join-code-block" id="join-card-4">
+            <div class="jc-meta-bar">
+              <div class="jc-title-wrap">
+                <span class="jc-live-dot"></span>
+                <span class="jc-label">WAYGROUND SESSION PIN</span>
+              </div>
+              <div class="jc-tools">
+                <button class="btn-jc-tool btn-focus-code" id="btn-toggle-timer-4" title="Toggle Timer Visibility">Hide Timer</button>
+                <button class="btn-jc-tool" id="btn-copy-code-4" title="Copy 6-digit PIN">Copy</button>
+                <button class="btn-jc-tool" id="btn-clear-code-4" title="Clear PIN">Clear</button>
+              </div>
+            </div>
+
+            <div class="jc-slots-wrapper" id="jc-wrapper-4">
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-4-0" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-4-1" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-4-2" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+              <div class="jc-slot-hyphen">—</div>
+              <div class="jc-slot-cluster">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-4-3" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-4-4" placeholder="-" autocomplete="off" inputmode="numeric">
+                <input type="text" maxlength="1" class="jc-digit-slot" id="jc-4-5" placeholder="-" autocomplete="off" inputmode="numeric">
+              </div>
+            </div>
+
+            <div class="jc-instructions-sub">
+              <span>Enter 6-digit session PIN directly on screen · Participants enter this PIN to join</span>
+            </div>
+          </div>
+
+          <!-- BIG CENTERED STAGE TIMER BLOCK -->
+          <div class="stage-timer-center-block" id="timer-card-4">
+            <div class="timer-linear-progress">
+              <div class="progress-fill" id="timer-progress-4"></div>
+            </div>
+
+            <div class="timer-meta-row">
+              <span class="timer-level-pill">LEVEL 04</span>
+              <span class="timer-status-text">FINAL WINDOW · 10 MINUTES</span>
+              <button class="btn-timer-mini-hide" id="btn-toggle-code-4" title="Toggle Join Code Visibility">Hide Code</button>
+            </div>
+
+            <!-- THE GIANT CENTERED TIMER -->
+            <div class="giant-timer-display" id="timer-digits-4">10:00</div>
+
+            <!-- TACTILE CONTROLS ROW -->
+            <div class="timer-controls-row">
+              <button class="btn-timer-primary" id="btn-start-round-4">
+                <span class="btn-icon">▶</span>
+                <span>Start 10m Timer</span>
+              </button>
+              <button class="btn-timer-subtle" id="btn-reset-round-4" title="Reset to 10:00">Reset</button>
+              <button class="btn-timer-subtle" id="btn-sub1-round-4" title="Subtract 1 Minute">-1m</button>
+              <button class="btn-timer-subtle" id="btn-add1-round-4" title="Add 1 Minute">+1m</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ======================================================================
+       GLOBAL STAGE DOCK (Minimalist & Floating at Bottom)
+       ====================================================================== -->
+  <nav class="global-deck-nav">
+    <button class="nav-pill-btn" id="btn-deck-prev" disabled title="Previous Slide (Left Arrow)">
+      <span>←</span> Previous
+    </button>
+
+    <div class="nav-slide-indicators">
+      <button class="slide-indicator-dot active" id="pill-slide-0">Cover</button>
+      <button class="slide-indicator-dot" id="pill-slide-1">Level 1 (8m)</button>
+      <button class="slide-indicator-dot" id="pill-slide-2">Level 2 (8m)</button>
+      <button class="slide-indicator-dot" id="pill-slide-3">Level 3 (11m)</button>
+      <button class="slide-indicator-dot" id="pill-slide-4">Level 4 (10m)</button>
+    </div>
+
+    <button class="nav-pill-btn" id="btn-deck-next" title="Next Slide (Right Arrow)">
+      Next <span>→</span>
+    </button>
+
+    <button class="btn-fs-pill" id="btn-deck-fs" title="Fullscreen (F)">⛶</button>
+  </nav>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
